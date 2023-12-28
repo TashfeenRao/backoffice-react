@@ -12,6 +12,7 @@
 }
 
 .grid-header {
+  border-right: 1px solid #ccc;
   flex: 1;
   padding: 8px;
   text-align: center;
