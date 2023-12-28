@@ -145,8 +145,7 @@ const TaskCalender = () => {
           <div className='frame-child32' />
           <div className='frame-child32' />
         </div>
-        <img className='rectangle-icon' alt='' src='/rectangle-2377@2x.png' />
-        <img className='line-icon' alt='' src='/line-73@2x.png' />
+        <img className='line-icon' alt='' src='/activeLine.png' />
         <div className='frame-container'>
           <div className='wrapper14'>
             <div className='div17'>8:00 - 9:00</div>
