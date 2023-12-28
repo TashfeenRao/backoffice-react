@@ -169,11 +169,7 @@ const TaskCalender = () => {
           </div>
         </div>
         <div className='icon-chevronleft-wrapper'>
-          <img
-            className='icon-chevronleft'
-            alt=''
-            src='/icon--chevronleft@2x.png'
-          />
+          <img className='icon-chevronleft' alt='' src='/leftIcon.png' />
         </div>
         <div className='div21'>10:45</div>
       </div>
@@ -184,11 +180,7 @@ const TaskCalender = () => {
         </div>
         <div className='frame-parent3'>
           <div className='icon-chevronleft-container'>
-            <img
-              className='icon-chevronleft1'
-              alt=''
-              src='/icon--chevronleft@2x.png'
-            />
+            <img className='icon-chevronleft1' alt='' src='/leftIcon.png' />
           </div>
           <div className='mon-parent'>
             <div className='mon'>Mon</div>
@@ -215,11 +207,7 @@ const TaskCalender = () => {
             <div className='div22'>14</div>
           </div>
           <div className='icon-chevronleft-container'>
-            <img
-              className='icon-chevronleft'
-              alt=''
-              src='/icon--chevronleft@2x.png'
-            />
+            <img className='icon-chevronleft' alt='' src='/rightIcon.png' />
           </div>
         </div>
       </div>
