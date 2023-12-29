@@ -6,7 +6,7 @@
   background-color: var(--main-colors-white);
   border: 1px solid rgba(136, 154, 182, 0.2);
   box-sizing: border-box;
-  width: 1522px;
+  width: 1230px;
   height: 922px;
 }
 .frame-item {
@@ -60,8 +60,7 @@
   box-sizing: border-box;
 }
 .court-1-wrapper {
-  width: 116px;
-  flex-shrink: 0;
+  flex: 1;
   justify-content: center;
   padding: var(--padding-5xs) var(--padding-3xs);
 }
@@ -69,7 +68,7 @@
   position: absolute;
   top: 178px;
   left: 148px;
-  width: 1520px;
+  width: 1230px;
   justify-content: flex-start;
   padding: var(--padding-7xs) 0 var(--padding-9xs) 13px;
   gap: 9px;
@@ -89,7 +88,7 @@
   position: absolute;
   top: 222px;
   left: 157px;
-  width: 1501px;
+  width: 1220px;
   height: 844px;
   display: flex;
   flex-direction: column;
@@ -101,18 +100,21 @@
   border-right: 1px solid var(--color-darkslateblue-400);
   box-sizing: border-box;
   width: 1px;
-  height: 902px;
+  height: 920px;
+  flex: 1;
 }
 .line-group {
   position: absolute;
-  top: 185px;
+  top: 179px;
   left: 282px;
-  height: 893px;
+  height: 920px;
+  width: 1100px;
+  border-left: 1px solid var(--color-darkslateblue-400);
+  border-right: 1px solid var(--color-darkslateblue-400);
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 125px;
 }
 .line-icon,
 .rectangle-icon {
@@ -129,7 +131,7 @@
   top: 367.2px;
   left: 148px;
   max-height: 100%;
-  width: 1520px;
+  width: 1228px;
 }
 .div17 {
   position: relative;

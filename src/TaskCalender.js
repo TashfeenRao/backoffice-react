@@ -142,8 +142,6 @@ const TaskCalender = () => {
           <div className='frame-child32' />
           <div className='frame-child32' />
           <div className='frame-child32' />
-          <div className='frame-child32' />
-          <div className='frame-child32' />
         </div>
         <img className='line-icon' alt='' src='/activeLine.png' />
         <div className='frame-container'>
