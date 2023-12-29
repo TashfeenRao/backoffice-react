@@ -61,7 +61,12 @@ const TaskCalender = () => {
         </div>
         <div className='frame-group'>
           <div className='court-1-wrapper'>
-            <div className='court-1'>Court 1</div>
+            <div className='court-1'>
+              <div className='icon-chevronleft-container'>
+                <img className='icon-chevronleft' alt='' src='/leftIcon.png' />
+              </div>
+              Court 1
+            </div>
           </div>
           <div className='court-1-wrapper'>
             <div className='court-1'>Court 2</div>
@@ -88,13 +93,12 @@ const TaskCalender = () => {
             <div className='court-1'>Court 9</div>
           </div>
           <div className='court-1-wrapper'>
-            <div className='court-1'>Court 10</div>
-          </div>
-          <div className='court-1-wrapper'>
-            <div className='court-1'>Court 11</div>
-          </div>
-          <div className='court-1-wrapper'>
-            <div className='court-1'>Court 12</div>
+            <div className='court-1'>
+              Court 10
+              <div className='icon-chevronleft-container'>
+                <img className='icon-chevronleft' alt='' src='/rightIcon.png' />
+              </div>
+            </div>
           </div>
         </div>
         <div className='line-parent'>
@@ -171,7 +175,6 @@ const TaskCalender = () => {
         </div>
         <div className='div21'>10:45</div>
       </div>
-      <img className='task-child' alt='' src='/frame-427319089@2x.png' />
       <div className='frame-parent2'>
         <div className='october-2023-wrapper'>
           <div className='court-1'>October, 2023</div>
